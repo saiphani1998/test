@@ -5,9 +5,9 @@
             return;
           }
             window.navigator.share({
-                title: 'Web Fundamentals',
-                text: 'Check out Web Fundamentals — it rocks!',
-                url: 'https://developers.google.com/web',
+                title: 'Mypl',
+                text: 'Check out MyPL for best fantasy game ever!!! — it rocks! -- https://mypl.in/play'
+               
             })
               .then(() => console.log('Successful share'))
               .catch((error) => console.log('Error sharing', error));
