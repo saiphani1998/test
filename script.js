@@ -4,7 +4,7 @@
             alert('Web Share API not supported.');
             return;
           }
-            window.navigator.share({
+            navigator.share({
                 title: 'Mypl',
                 text: 'Check out MyPL for best fantasy game ever!!! — it rocks! -- https://mypl.in/play'
                
